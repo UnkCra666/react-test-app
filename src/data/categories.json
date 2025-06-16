@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "Все викторины",
+      "icon": "🎯",
+      "description": "Полный каталог всех доступных викторин"
+    },
+    {
+      "id": "character",
+      "name": "Какой ты персонаж из...?",
+      "icon": "🎭",
+      "description": "Узнай, на какого персонажа из популярных фильмов, мультфильмов и сериалов ты похож"
+    },
+    {
+      "id": "personality",
+      "name": "Тип личности",
+      "icon": "🧠",
+      "description": "Психологические тесты для определения типа личности и характера"
+    },
+    {
+      "id": "archetype",
+      "name": "Мифологические архетипы",
+      "icon": "⚡",
+      "description": "Определи свой архетип: Демиург, Бунтарь, Герой, Мудрец, Творец и другие"
+    },
+    {
+      "id": "universe",
+      "name": "По вселенным",
+      "icon": "🌌",
+      "description": "Викторины, основанные на конкретных фэнтези-мирах и вселенных"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "disney-princess",
+      "title": "Какая ты принцесса Disney?",
+      "description": "Узнай, какая принцесса Disney больше всего похожа на тебя по характеру и поведению",
+      "category": "character",
+      "subcategory": "Дисней",
+      "image": "https://248006.selcdn.ru/main/iblock/470/470b8f9105cdb0b4d3621491647a5452/eee75ed2292b14a8f25ca34698b8ebf7.png",
+      "questionsCount": 12,
+      "estimatedTime": "4-5 минут",
+      "dataFile": "disney-princesses.json"
+    },
+    {
+      "id": "marvel-hero",
+      "title": "Какой ты супергерой Marvel?",
+      "description": "Определи, какой супергерой из вселенной Marvel скрывается в тебе",
+      "category": "character",
+      "subcategory": "Марвел",
+      "image": "https://www.5-tv.ru/shared/files/202105/1_1315490.jpg",
+      "questionsCount": 15,
+      "estimatedTime": "5-6 минут",
+      "dataFile": "marvel-heroes.json"
+    },
+    {
+      "id": "anime-character",
+      "title": "Какой ты персонаж аниме?",
+      "description": "Узнай, на какого персонажа из популярных аниме ты больше всего похож",
+      "category": "character",
+      "subcategory": "Аниме",
+      "image": "https://99px.ru/sstorage/53/2022/07/tmb_343330_701169.jpg",
+      "questionsCount": 10,
+      "estimatedTime": "3-4 минуты",
+      "dataFile": "anime-characters.json"
+    },
+    {
+      "id": "personality-type",
+      "title": "Определи свой тип личности",
+      "description": "Глубокий психологический тест для определения основных черт твоей личности",
+      "category": "personality",
+      "subcategory": "Психология",
+      "image": "https://anna-kuchyna.com/wp-content/webp-express/webp-images/uploads/2022/07/tipy-lichnostej-1.jpg.webp",
+      "questionsCount": 20,
+      "estimatedTime": "7-8 минут",
+      "dataFile": "personality.json"
+    },
+    {
+      "id": "love-language",
+      "title": "Какой у тебя язык любви?",
+      "description": "Узнай, как ты выражаешь и получаешь любовь в отношениях",
+      "category": "personality",
+      "subcategory": "Отношения",
+      "image": "https://ahaslides.com/wp-content/uploads/2023/09/SEO4781-thumb.png",
+      "questionsCount": 16,
+      "estimatedTime": "5-6 минут",
+      "dataFile": "love-language.json"
+    },
+    {
+      "id": "mythological-archetype",
+      "title": "Твой мифологический архетип",
+      "description": "Определи, какой древний архетип управляет твоей жизнью",
+      "category": "archetype",
+      "subcategory": "Мифология",
+      "image": "https://blog.mann-ivanov-ferber.ru/wp-content/uploads/2024/03/image3-10.jpg",
+      "questionsCount": 18,
+      "estimatedTime": "6-7 минут",
+      "dataFile": "mythological-archetype.json"
+    },
+    {
+      "id": "harry-potter-house",
+      "title": "Какой твой факультет в Хогвартсе?",
+      "description": "Распределяющая шляпа определит, к какому факультету ты принадлежишь",
+      "category": "universe",
+      "subcategory": "Гарри Поттер",
+      "image": "https://ndc.book24.ru/resize/1100x320/iblock/d9b/d9b957e0b4ed7d87b849be66843faedf/f8fdc9d156f63bfe45640613c07975f9.jpg",
+      "questionsCount": 14,
+      "estimatedTime": "4-5 минут",
+      "dataFile": "harry-potter-house.json"
+    },
+    {
+      "id": "lotr-race",
+      "title": "Какая ты раса из Властелина Колец?",
+      "description": "Узнай, к какой расе Средиземья ты бы принадлежал",
+      "category": "universe",
+      "subcategory": "Толкен",
+      "image": "https://areal.me/cover-images/which-lotr-race-are-you.png",
+      "questionsCount": 12,
+      "estimatedTime": "4-5 минут",
+      "dataFile": "lotr-race.json"
+    }
+  ]
+}

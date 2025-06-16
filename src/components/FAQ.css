@@ -1,0 +1,362 @@
+/* FAQ Styles */
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Заголовок секции */
+.faq-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.faq-subtitle {
+  font-size: 1.125rem;
+  color: #718096;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Основной контент */
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Элемент FAQ */
+.faq-item {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  overflow: hidden;
+  transition: var(--transition);
+  border: 1px solid #E2E8F0;
+}
+
+.faq-item:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+/* Кнопка вопроса */
+.faq-question {
+  width: 100%;
+  padding: 24px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: var(--transition);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.faq-question:hover {
+  background: var(--background-pink);
+}
+
+.faq-question.active {
+  background: var(--gradient-primary);
+  color: var(--text-light);
+}
+
+.faq-question.active .question-icon {
+  color: var(--text-light);
+}
+
+.question-text {
+  flex: 1;
+  padding-right: 16px;
+  line-height: 1.4;
+}
+
+.question-icon {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--primary-pink);
+  transition: all 0.3s ease;
+  min-width: 24px;
+  text-align: center;
+  transform: rotate(0deg);
+}
+
+.faq-item.open .question-icon {
+  transform: rotate(180deg);
+}
+
+/* Ответ */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+}
+
+.faq-item.open .faq-answer {
+  max-height: 500px;
+  transition: max-height 0.3s cubic-bezier(0.5, 0, 1, 0);
+}
+
+.answer-content {
+  padding: 0 24px 24px 24px;
+  border-top: 1px solid #E2E8F0;
+  margin-top: 0;
+}
+
+.answer-content p {
+  margin: 16px 0 0 0;
+  line-height: 1.6;
+  color: #4A5568;
+  font-size: 1rem;
+}
+
+/* Секция контактов */
+.faq-contact {
+  margin-top: 60px;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, var(--primary-pink) 0%, var(--light-pink) 100%);
+  border-radius: var(--border-radius);
+  padding: 40px;
+  text-align: center;
+  color: var(--text-light);
+  box-shadow: var(--shadow-medium);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-text {
+  font-size: 1rem;
+  margin-bottom: 32px;
+  opacity: 0.9;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 120px;
+}
+
+.method-icon {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+
+.method-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0.95;
+}
+
+/* Адаптивность для планшетов */
+@media (max-width: 768px) {
+  .faq {
+    padding: 32px 16px;
+  }
+  
+  .faq-title {
+    font-size: 2rem;
+  }
+  
+  .faq-subtitle {
+    font-size: 1rem;
+  }
+  
+  .faq-question {
+    padding: 20px;
+    font-size: 1rem;
+  }
+  
+  .question-text {
+    padding-right: 12px;
+  }
+  
+  .answer-content {
+    padding: 0 20px 20px 20px;
+  }
+  
+  .contact-card {
+    padding: 32px 24px;
+  }
+  
+  .contact-methods {
+    gap: 24px;
+  }
+  
+  .contact-method {
+    min-width: 100px;
+  }
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 480px) {
+  .faq {
+    padding: 24px 12px;
+  }
+  
+  .faq-header {
+    margin-bottom: 32px;
+  }
+  
+  .faq-title {
+    font-size: 1.75rem;
+  }
+  
+  .faq-subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .faq-question {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+  
+  .question-icon {
+    font-size: 1.25rem;
+  }
+  
+  .answer-content {
+    padding: 0 16px 16px 16px;
+  }
+  
+  .answer-content p {
+    font-size: 0.9rem;
+  }
+  
+  .contact-card {
+    padding: 24px 16px;
+  }
+  
+  .contact-title {
+    font-size: 1.25rem;
+  }
+  
+  .contact-text {
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+  
+  .contact-methods {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .contact-method {
+    flex-direction: row;
+    min-width: auto;
+    gap: 12px;
+  }
+  
+  .method-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .method-text {
+    font-size: 0.875rem;
+    text-align: left;
+  }
+}
+
+/* Анимации */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+/* Улучшенные анимации для FAQ элементов */
+.faq-item {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.faq-item:nth-child(2) { animation-delay: 0.1s; }
+.faq-item:nth-child(3) { animation-delay: 0.2s; }
+.faq-item:nth-child(4) { animation-delay: 0.3s; }
+.faq-item:nth-child(5) { animation-delay: 0.4s; }
+.faq-item:nth-child(6) { animation-delay: 0.5s; }
+.faq-item:nth-child(7) { animation-delay: 0.6s; }
+.faq-item:nth-child(8) { animation-delay: 0.7s; }
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Фокус для доступности */
+.faq-question:focus {
+  outline: 2px solid var(--primary-pink);
+  outline-offset: 2px;
+}
+
+.faq-question:focus:not(:focus-visible) {
+  outline: none;
+}

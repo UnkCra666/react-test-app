@@ -1,0 +1,352 @@
+{
+  "title": "Какой твой факультет в Хогвартсе?",
+  "description": "Распределяющая шляпа определит, к какому факультету ты принадлежишь: Гриффиндор, Хаффлпафф, Равенкло или Слизерин!",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Какая черта тебе ближе всего?",
+      "image": "/images/questions/hogwarts_traits.jpg",
+      "answers": [
+        {
+          "text": "Храбрость",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Мудрость",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Верность",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Амбициозность",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Как ты решаешь проблемы?",
+      "answers": [
+        {
+          "text": "Действую смело",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Анализирую и планирую",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Работаю в команде",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Ищу выгоду",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Что для тебя важнее?",
+      "answers": [
+        {
+          "text": "Честь",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Знания",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Дружба",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Власть",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Какой твой стиль работы?",
+      "image": "/images/questions/hogwarts_work.jpg",
+      "answers": [
+        {
+          "text": "Рискую ради цели",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Изучаю все детали",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Работаю упорно и честно",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Ищу эффективный путь",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Как ты относишься к правилам?",
+      "answers": [
+        {
+          "text": "Нарушаю ради справедливости",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Уважаю, если они логичны",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Слежу за их соблюдением",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Обхожу, если это выгодно",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Что тебя вдохновляет?",
+      "answers": [
+        {
+          "text": "Подвиги и героизм",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Открытия и знания",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Дружба и поддержка",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Успех и признание",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Как ты справляешься с конфликтами?",
+      "image": "/images/questions/hogwarts_conflict.jpg",
+      "answers": [
+        {
+          "text": "Бросаюсь в бой",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Ищу логическое решение",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Стараюсь примирить всех",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Манипулирую ситуацией",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Какой твой идеальный друг?",
+      "answers": [
+        {
+          "text": "Смелый и решительный",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Умный и любознательный",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Верный и добрый",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Амбициозный и находчивый",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Как ты учишься?",
+      "answers": [
+        {
+          "text": "Через практику и действия",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Через книги и исследования",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Через упорный труд",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Ищу быстрые пути",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Что тебя пугает больше всего?",
+      "answers": [
+        {
+          "text": "Трусость",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Невежество",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Предательство",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Неудача",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Как ты видишь успех?",
+      "image": "/images/questions/hogwarts_success.jpg",
+      "answers": [
+        {
+          "text": "Совершение подвига",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Раскрытие истины",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Создание гармонии",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Достижение власти",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "Как ты относишься к риску?",
+      "answers": [
+        {
+          "text": "Люблю рисковать",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Рассчитываю риски",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Избегаю, если можно",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Рискую ради выгоды",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "Какой твой подход к дружбе?",
+      "answers": [
+        {
+          "text": "Защищаю друзей любой ценой",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Делюсь знаниями",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Всегда поддерживаю",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Выбираю полезных друзей",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "Какой твой девиз?",
+      "answers": [
+        {
+          "text": "Смелость побеждает!",
+          "scores": { "gryffindor": 3 }
+        },
+        {
+          "text": "Знание - сила!",
+          "scores": { "ravenclaw": 3 }
+        },
+        {
+          "text": "Верность и труд!",
+          "scores": { "hufflepuff": 3 }
+        },
+        {
+          "text": "Цель оправдывает средства!",
+          "scores": { "slytherin": 3 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "gryffindor",
+      "name": "Гриффиндор",
+      "title": "Ты - Гриффиндор!",
+      "description": "Ты смелый и благородный! Как настоящий гриффиндорец, ты готов броситься в бой за справедливость и защитить тех, кто тебе дорог.",
+      "image": "https://www.clipartmax.com/png/full/302-3020385_harry-potter-gryffindor-crest.png",
+      "traits": ["Храбрый", "Благородный", "Решительный", "Честный"]
+    },
+    {
+      "id": "ravenclaw",
+      "name": "Равенкло",
+      "title": "Ты - Равенкло!",
+      "description": "Ты мудрый и любознательный! Как равенкловец, ты ценишь знания и всегда стремишься к истине, анализируя мир вокруг.",
+      "image": "https://www.clipartmax.com/png/full/264-2649292_ravenclaw-crest-harry-potter-ravenclaw-crest.png",
+      "traits": ["Умный", "Любознательный", "Креативный", "Рассудительный"]
+    },
+    {
+      "id": "hufflepuff",
+      "name": "Хаффлпафф",
+      "title": "Ты - Хаффлпафф!",
+      "description": "Ты верный и добрый! Как хаффлпаффец, ты ценишь дружбу и труд, всегда готов поддержать других и создать гармонию.",
+      "image": "https://www.clipartmax.com/png/full/126-1264001_hufflepuff-crest-hufflepuff-logo.png",
+      "traits": ["Верный", "Добрый", "Трудолюбивый", "Честный"]
+    },
+    {
+      "id": "slytherin",
+      "name": "Слизерин",
+      "title": "Ты - Слизерин!",
+      "description": "Ты амбициозный и находчивый! Как слизеринец, ты всегда стремишься к успеху и умеешь находить эффективные пути к цели.",
+      "image": "https://www.clipartmax.com/png/full/198-1985930_harry-potter-house-logos-slytherin.png",
+      "traits": ["Амбициозный", "Находчивый", "Хитрый", "Целеустремленный"]
+    }
+  ]
+}
